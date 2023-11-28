@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
 }
 .navbar{
     width: 100%;
@@ -73,19 +72,6 @@
     height: 200px;
 
 }
-/*
-#img::after{
-    content: "";
-    position: absolute;
-    left: 5px;
-    /* top: 100px; 
-    width: 300px;
-    height: 250px;
-    background: url(img/profile.png);
-    background-size: cover;
-    z-index: -1;
-    opacity: 1;
-} */
 .data{
     display: flex;
     flex-direction: column;
@@ -108,14 +94,16 @@
 }
 #About{
     display: flex;
+    
     width: 100%;
     height: 500px;
-    background-color: blue;
+    /* background-color: blue; */
     justify-content: space-around;
     align-items: center;
+    /* color: black; */
 }
 .photo{
-    
+    border: 10px solid rgb(135, 71, 26);
 }
 .photo img{
     width: 400px; 
@@ -126,4 +114,36 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-} 
+}
+.about h1{
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+.about p{
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+.div{
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-around; */
+}
+.q{
+    padding-left: 100px;
+}
+.a h4{
+    padding-top: 3px;
+}
+.a{
+    margin-left: 50px;
+}
+.about button{
+    margin-top: 25px;
+    /* margin-left: 30px; */
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: darkblue;
+    color: white;
+}
