@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.navbar::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    z-index: -1;
+    opacity: 0.5;
+}
+.navbar h1{
+    color: aliceblue;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.navbar a :hover{
+    border-bottom: 2px solid white;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+#Home{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+#header::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(https://1.bp.blogspot.com/-ACTFpyFGKtE/XxGzHGIkCnI/AAAAAAAA1Gw/oIkWkeoD-yEIG4cRJJP3ec96AwllNv5EgCLcBGAsYHQ/s2560/yellow-material-design-abstract-8k-8u-3840x2160.jpg) center center no-repeat;
+    /* background-color: yellowgreen; */
+    z-index: -1;
+    opacity: 1;
+}
+#img{
+    height: 500px;
+    width: 510px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    
+    /* border-radius: 50%; */
+}
+.img{
+    height: 200px;
+
+}
+/*
+#img::after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    /* top: 100px; 
+    width: 300px;
+    height: 250px;
+    background: url(img/profile.png);
+    background-size: cover;
+    z-index: -1;
+    opacity: 1;
+} */
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    /* justify-content: center; */
+    padding: 50px;
+    width: 700px;
+    text-align: left;
+    /* margin: 0px 90px; */
+}
+.data h1{
+    font-size: 3.5rem;
+    padding: 10px 0;
+}
+.data h3{
+    font-size: 1.5rem;
+}
+.data p{
+    font-size: 1.5rem;
+}
+#About{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+}
+.photo{
+    
+}
+.photo img{
+    width: 400px; 
+    height: 400px;
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+} 
