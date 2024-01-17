@@ -150,6 +150,10 @@
     color: white;
     cursor: pointer;
 }
+.about button a{
+    color: white;
+    text-decoration: none;
+}
 #skills{
     display: flex;
     flex-direction: column;
