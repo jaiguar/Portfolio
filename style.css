@@ -1,0 +1,115 @@
+/* nav section  */
+#navbar{
+    justify-content: center;
+    font-size: 1rem;
+}
+
+/* Home Section  */
+#img{
+    /* overflow: hidden; */
+    overflow-wrap: normal;
+}
+/* #img svg{
+    width: 200px;
+    height: 150px;
+} */
+/* #img svg image{
+    width: 180px;
+    height: 150px;
+    overflow-x: ;
+    y:30;
+}
+#img svg circle{
+    cx:"75";
+    cy:"75"; 
+    r:"75";
+} */
+.data{
+    margin-top: -20px;
+    padding: 0px;
+    /* margin-left: 25px; */
+}
+.data h1{
+    font-size: 1.5rem;
+}
+.data h2{
+    font-size: 1rem;
+}
+/* About Section  */
+
+
+#About{
+    height: 600px;
+}
+
+
+.about h1{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.q{
+    padding-left: 0px;
+}
+.a h4{
+    padding-top: 7px;
+}
+.a{
+    margin-left: 10px;
+}
+.about p{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.photo img{
+    height: 150px;
+    width: 150px;
+}
+.photo::before{
+    width: 155px;
+    height: 155px;
+}
+
+
+/* Skills Section  */
+#bigbox{
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    
+}
+#skills h1{
+    font-size: 1.5rem;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+.box img{
+    width: 150px;
+    height: 120px;
+}
+#box8 img{
+    /* margin-left: -45px; */
+    width: 200px;
+}
+#box9 img{
+    margin-left: 19px;
+}
+
+
+/* Resume   Section */
+#Resume{
+    width: 100%;
+    height: 900px;
+}
+.resume_1{
+    margin-left: 25px;
+}
+
+/* Contact section */
+#Contact{
+    height: 600px;
+}
+.contact_box{
+    flex-direction: column;
+}
