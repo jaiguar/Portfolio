@@ -79,6 +79,9 @@
 #skills h1{
     font-size: 1.5rem;
 }
+#bigbox{
+    margin-left: -50px;
+}
 .box{
     width: 200px;
     height: 200px;
