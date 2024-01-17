@@ -20,7 +20,7 @@
     align-items: center;
 }
 .data{
-    width: 450px;
+    width: 100%;
     margin-top: -45px;
     padding: 10px; 
     justify-content: center;
@@ -30,6 +30,9 @@
     font-size: 1.5rem;
 }
 .data h2{
+    font-size: 1rem;
+}
+.data p{
     font-size: 1rem;
 }
 /* About Section  */
@@ -69,7 +72,7 @@
 
 /* Skills Section  */
 #bigbox{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 400px;
     
 }
